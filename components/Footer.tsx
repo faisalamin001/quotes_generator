@@ -3,7 +3,13 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="text-center h-16 sm:h-20 w-full md:w-3/4 sm:pt-2 pt-4 border-t mt-5 flex p-4 sm:flex-row flex-col justify-between items-center px-3 space-y-3 sm:mb-0 mb-3">
-      <p className="text-slate-500 font-normal">Built by Faysal</p>
+      <p className="text-slate-500 font-normal">
+        Built by{" "}
+        <span className=" hover:text-blue-500">
+          {" "}
+          <Link href="https://github.com/faisalamin001">Faysal</Link>
+        </span>{" "}
+      </p>
       <div className="flex space-x-4 pb-4 sm:pb-0">
         <Link
           href="https://twitter.com/faisalamin001"

@@ -37,12 +37,9 @@ const Header = () => {
   return (
     <header className=" flex w-full md:w-3/4 p-5 py-3 justify-between text-sm text-gray-800 border-b  dark:border-b">
       {/*left section*/}
-      <div
-        // href="https://github.com/faisalamin0001"
-        className="flex space-x-2 items-center select-none"
-      >
+      <div className="flex space-x-2 items-center select-none">
         <a
-          href="https://github.com/faisalamin0001/"
+          href="https://github.com/faisalamin001/quotes_generator"
           target="_blank"
           rel="noreferrer"
         >
@@ -59,7 +56,7 @@ const Header = () => {
         </a>
         <span className=" font-sansSerif dark:text-gray-100">
           <a
-            href="https://github.com/faisalamin001"
+            href="https://github.com/faisalamin001/quotes_generator"
             target="_blank"
             rel="noreferrer"
             className=" text-slate-500 font-medium"

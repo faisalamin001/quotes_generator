@@ -27,7 +27,7 @@ export default function Home() {
   const generateArticleTitle = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!text) {
-      toast.error("Input what's on your mind!");
+      toast.error("Type a word to generate the quotes!");
       return;
     }
 
@@ -53,7 +53,6 @@ export default function Home() {
     if (!data) {
       return;
     }
-console.log('open AI data => ',data);
     const reader = data.getReader();
     const decoder = new TextDecoder();
     let done = false;
@@ -115,9 +114,9 @@ console.log('open AI data => ',data);
             </button>
           </form>
 
-          <div className="flex w-full max-w-screen-md items-center justify-between mt-8 mb-2 ml-6">
+          <div className="flex w-full max-w-screen-md items-center justify-between mt-8 mb-2">
             {loading && (
-              <div>
+              <div className="mx-auto">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -140,13 +139,13 @@ console.log('open AI data => ',data);
             reverseOrder={false}
             toastOptions={{ duration: 3000 }}
           />
-          <div className="h-px max-w-screen-md w-full border-b dark:border-zinc-800"></div>
+          <div className="h-px max-w-screen-md w-full border-b dark:border-zinc-700"></div>
           <ResizablePanel>
             <AnimatePresence mode="wait">
               <motion.div className="space-y-4 my-5">
                 {generatedTitles && (
                   <>
-                    <p className="text-xs text-center font-bold text-gray-400 uppercase">
+                    <p className="text-xs text-center  text-slate-500 uppercase">
                       Click on any quote to copy it to your clipboard
                     </p>
                     <div className="max-w-screen-md grid gap-2 grid-cols-1  m-auto md:grid-cols-2">
