@@ -5,7 +5,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <meta charSet="utf-8" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="https://i.postimg.cc/j5S0SV3g/logo2.png" />
         <meta name="description" content="Generate quotes with ease." />
 
         {/* <!-- Google / Search Engine Tags --> */}
@@ -14,33 +14,33 @@ export default function Document() {
         <meta property="og:site_name" content="quotes.com" />
         <meta
           itemProp="image"
-          content="https://quotes-generator-swart.vercel.app"
+          content="https://i.postimg.cc/qvyBSCFk/Quotes.jpg"
         />
 
         {/* <!-- Facebook Meta Tags --> */}
         <meta
           property="og:url"
-          content="https://quotes-generator-swart.vercel.app"
+          content="https://i.postimg.cc/qvyBSCFk/Quotes.jpg"
         />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Article Idea Generator" />
+        <meta property="og:title" content="Quotes Generator" />
         <meta property="og:description" content="Generate quotes with ease." />
         <meta
           property="og:image"
-          content="https://quotes-generator-swart.vercel.app"
+          content="https://i.postimg.cc/qvyBSCFk/Quotes.jpg"
         />
 
         {/* <!-- Twitter Meta Tags --> */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Article Idea Generator" />
+        <meta name="twitter:title" content="Quotes Generator" />
         <meta name="twitter:description" content="Generate quotes with ease." />
         <meta
           property="og:image"
-          content="https://quotes-generator-swart.vercel.app"
+          content="https://i.postimg.cc/qvyBSCFk/Quotes.jpg"
         />
         <meta
           name="twitter:image"
-          content="https://quotes-generator-swart.vercel.app/og-image.png"
+          content="https://i.postimg.cc/qvyBSCFk/Quotes.jpg"
         />
       </Head>
       <body className="transition-colors duration-200">

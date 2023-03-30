@@ -41,7 +41,7 @@ input:checked + div svg {
   }
 
   ::selection {
-    @apply text-white bg-indigo-500;
+    @apply text-white bg-blue-700;
   }
 
   .btn {
