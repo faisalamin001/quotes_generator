@@ -15,18 +15,30 @@ export default function Document() {
         <meta itemProp="image" content="/demo.png" />
 
         {/* <!-- Facebook Meta Tags --> */}
-        <meta property="og:url" content="/demo.png" />
+        <meta
+          property="og:url"
+          content="https://i.postimg.cc/fyfWfnf1/demo.png"
+        />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Quotes Generator" />
         <meta property="og:description" content="Generate quotes with ease." />
-        <meta property="og:image" content="/demo.png" />
+        <meta
+          property="og:image"
+          content="https://i.postimg.cc/fyfWfnf1/demo.png"
+        />
 
         {/* <!-- Twitter Meta Tags --> */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Quotes Generator" />
         <meta name="twitter:description" content="Generate quotes with ease." />
-        <meta property="og:image" content="/demo.png" />
-        <meta name="twitter:image" content="/demo.png" />
+        <meta
+          property="og:image"
+          content="https://i.postimg.cc/fyfWfnf1/demo.png"
+        />
+        <meta
+          name="twitter:image"
+          content="https://i.postimg.cc/fyfWfnf1/demo.png"
+        />
       </Head>
       <body className="transition-colors duration-200">
         <Main />
