@@ -33,6 +33,12 @@ export default function Home() {
 
     setGeneratedTitles("");
     setLoading(true);
+
+    setTimeout(() => {
+      toast.error("Free trail has expired");
+      setLoading(false);
+    }, 3000);
+
     const response = await fetch("/api/generate", {
       method: "POST",
       headers: {
@@ -47,7 +53,6 @@ export default function Home() {
       setLoading(false);
       return;
     }
-
     const data = response.body;
 
     if (!data) {
